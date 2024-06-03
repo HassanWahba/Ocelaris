@@ -1,0 +1,49 @@
+{
+  "name": "ocel-interactive-extraction-tool",
+  "version": "1.0.0",
+  "description": "Extract an OCEL 2.0 from a relational database.",
+  "main": "main.js",
+  "scripts": {
+    "serve": "parcel public/index.html",
+    "build": "parcel build ./public/index.html"
+  },
+  "keywords": [
+    "ocel",
+    "BPMN",
+    "graph",
+    "event",
+    "log",
+    "extraction",
+    "database",
+    "interactive",
+    "tool"
+  ],
+  "author": "Hassan Wahba",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.2",
+    "@parcel/transformer-vue": "^2.9.2",
+    "deepmerge": "^4.3.1",
+    "nodemon": "^1.14.9",
+    "sass": "~1.32",
+    "sass-loader": "^13.3.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@primer/css": "^15.2.0",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "axios": "^0.21.0",
+    "lodash-es": "^4.17.20",
+    "notyf": "^3.9.0",
+    "parcel-bundler": "^1.5.1",
+    "vue": "^2.6.12",
+    "vue-context": "^6.0.0",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.4.9",
+    "vue-template-compiler": "^2.6.12",
+    "vuex": "^3.6.2"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OCEL Extractor</title>
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+        <script src="https://kit.fontawesome.com/1825a73b48.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="../src/assets/css/style.scss">
+        <!--link rel="stylesheet" href="../src/assets/css/vue-context.scss"-->
+    </head>
+    <body style="margin: 0">
+        <div id="app">
+            <ocel-nav></ocel-nav>
+            <div class="container" style="margin: 0; padding: 0; max-width: initial;">
+                <router-view></router-view>
+            </div>
+        </div>
+        <script type="module" src="../src/app.js"></script>
+    </body>
+</html>
